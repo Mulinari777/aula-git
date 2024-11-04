@@ -21,4 +21,13 @@ O intuito deste repositorio é aprender as melhores pratica de versionamento de 
 |git init | iniciar o monitoramento do projeto|
 |git status| verificar o estado dos arquivos presentes|
 |git add| prepada os arquivos para uma nova versão |
-|git commit -m "mensagem"| Criar uma nova versão
+|git commit -m "mensagem"| Criar uma nova versão|
+git remote| verifica ou adiciona uma origem remota|
+git log|verifica os commit presente|
+git clone| clona um repositorio remoto a produção local|
+
+### Instruções de configuração GIT
+
+|instrução | descrição |
+|-|-|
+|git config list| lista suas configuração|

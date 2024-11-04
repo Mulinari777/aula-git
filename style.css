@@ -1,0 +1,50 @@
+@font-face{
+    font-family:"boba.otf";
+    src: url(./assets/fonts/Boba.otf);
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 65.5%;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-family: "boba.otf";
+    color: darksalmon;
+    text-shadow: .2rem .2rem .2rem black;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #a4a402, black);
+}
+
+.conteudo{
+    box-shadow: 0 0 .3rem #6b6b6b;
+    padding: 4rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: #a4a402;
+}
+
+.perfil {
+    height: 15rem;
+    margin: 2rem;
+
+}
+
+.rede-sociais{
+    display: flex;
+    justify-content: space-between;
+}
